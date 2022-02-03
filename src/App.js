@@ -36,7 +36,6 @@ function App() {
       .then(data => {
         console.log(data);
         if (!userInput) return;
-        // setUsers(data);
         setData(data);
       }).catch(error => {
         console.log(error)
@@ -66,7 +65,7 @@ function App() {
           <button type='submit'>Search</button>
         </form>
       </div>
-      
+
        <div className="container">
        <div className='card'>
         <img src={avatar} alt="" />
